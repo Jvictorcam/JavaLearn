@@ -1,7 +1,14 @@
 public class Client implements Secure{
     
-    String name;
-    int psswd;
+    private String name;
+    private int psswd;
+
+    public Client(String name){
+        this.name = name;
+    }
+    public String getName(){
+        return this.name;
+    }
 
     public void setPsswd(int psswd){
         this.psswd = psswd;
