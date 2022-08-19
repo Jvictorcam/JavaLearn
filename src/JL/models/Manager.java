@@ -1,3 +1,5 @@
+package JL.models;
+
 class Manager extends Employee implements Secure{
     String psswd;
 

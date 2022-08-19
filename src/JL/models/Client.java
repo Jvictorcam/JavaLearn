@@ -1,3 +1,4 @@
+package JL.models;
 public class Client implements Secure{
     
     private String name;

@@ -1,3 +1,4 @@
+package JL.models;
 class Developer extends Employee{
 
     public double getBonus(){
